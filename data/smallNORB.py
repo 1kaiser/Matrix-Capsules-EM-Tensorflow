@@ -17,7 +17,7 @@ prng = RandomState(1234567890)
 
 from matplotlib import pyplot as plt
 #import cv2
-
+'''
 def plot_imgs(inputs, num, label):
     """Plot smallNORB images helper"""
      fig = plt.figure()
@@ -34,7 +34,7 @@ def plot_imgs(inputs, num, label):
     #    size = inputs[i].shape[1]
     #    cv2.imwrite('%d' % num+'_%d' % i+label+'.jpg', inputs[i].flatten().reshape(size, size))
     #return
-
+'''
 
 def write_data_to_tfrecord(kind: str, chunkify=False):
     """Credit: https://github.com/shashanktyagi/DC-GAN-on-smallNORB-dataset/blob/master/src/model.py
